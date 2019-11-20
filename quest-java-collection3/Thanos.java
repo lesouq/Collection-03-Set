@@ -17,7 +17,7 @@ public class Thanos {
         Hero oldest = null;
         Hero last = heroes.pollLast();
         System.out.println("\nOldest hero:");
-        System.out.println(oldest == null ? "": oldest.getName());
+        System.out.println(oldest == null ? "" : oldest.getName());
 
         // TODO 2: Show heroes by age (descending)
         System.out.println("\nHeroes by age (descending) :");
